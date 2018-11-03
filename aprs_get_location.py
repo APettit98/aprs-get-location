@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-aprs = open('AeroHAB2-APRS.txt','r')
-data = open('AeroHAB2-APRSLocationData.csv','w')
+aprs = open('YOUR_APRS_FILE_HERE.txt','r')
+data = open('YOUR_CSV_NAME_HERE.csv','w')
 data.write('Time,Latitude,Longitude,Altitude')
 
 for line in aprs.readlines():
